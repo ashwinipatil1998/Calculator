@@ -81,3 +81,19 @@ button{
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(60, 61, 55, 0.3);
 }
+
+@media (max-width: 390px) or (max-width: 430px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) or (min-width: 820px) or (min-width:1024px){
+    .container{
+        height: 50%;
+    }
+    button{
+        font-size: 1em;
+    }
+}
