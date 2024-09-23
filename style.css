@@ -17,7 +17,6 @@ body {
     align-items: center;
 }
 
-/* background-color: #3C3D37; */
 
 .container {
     background-color: black;
@@ -59,14 +58,12 @@ body {
     width: 100%;
     padding: 2%;
     border: none;
-    /* box-shadow: 10px 10px 15px rgba(60, 61, 55, 0.3); */
 }
 
 .buttons{
     height: 60%;
     width: 90%;
     padding: 5%;
-    /* box-shadow: 10px 10px 15px rgba(60, 61, 55, 0.3); */
 }
 
 button{
@@ -89,7 +86,7 @@ button{
     }
 }
 
-@media (min-width: 768px) or (min-width: 820px) or (min-width:1024px){
+@media (max-width: 768px) or (max-width: 820px) or (max-width:1024px){
     .container{
         height: 50%;
     }
